@@ -1,0 +1,7 @@
+{
+  "name": "s20",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
