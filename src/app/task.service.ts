@@ -7,6 +7,7 @@ export interface Task {
   id?: string;
   name: string;
   numtel: string;
+  date: string;
   completed: boolean;
 }
 
