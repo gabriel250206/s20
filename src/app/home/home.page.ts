@@ -34,7 +34,7 @@ export class HomePage {
         message: 'You have logged in successfully!',
         buttons: ['OK'],
       });
-      this.router.navigateByUrl("tareas");
+      this.router.navigateByUrl("lista");
       await alert.present();
     } else {
       const alert = await this.alertController.create({
