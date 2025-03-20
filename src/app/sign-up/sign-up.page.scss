@@ -1,0 +1,68 @@
+ion-header {
+    --background: #222;
+    color: white;
+  }
+  
+  ion-toolbar {
+    --background: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  ion-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  ion-content {
+    background-color: #111;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  ion-item {
+    --background: #222;
+    --border-radius: 10px;
+    --padding-start: 10px;
+    --padding-end: 10px;
+  }
+  
+  ion-label {
+    color: white;
+  }
+  
+  ion-input {
+    color: white;
+  }
+  
+  ion-button {
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  ion-button[type="submit"] {
+    --background: green;
+    --color: white;
+  }
+  
+  ion-button[type="submit"]:hover {
+    --background: darkgreen;
+  }
+  
+  ion-button[fill="clear"] {
+    color: lightgray;
+    text-decoration: underline;
+  }
+  
+  ion-button[fill="clear"]:hover {
+    color: white;
+  }
+  
